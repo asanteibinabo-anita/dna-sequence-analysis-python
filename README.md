@@ -45,6 +45,6 @@ The DNA sequence was processed using basic Python string operations to calculate
 - Expand into protein translation
 
   
-def reverse_complement(dna):
-    complement = {'A':'T','T':'A','G':'C','C':'G'}
-    return "".join(complement[base] for base in reversed(dna))
+## Visualization
+
+![Nucleotide Distribution](nucleotide_distribution.png)
